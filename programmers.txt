@@ -1,0 +1,13 @@
+slowusbasp.name=Bone Slow USBasp
+slowusbasp.communication=usb
+slowusbasp.protocol=usbasp
+slowusbasp.program.protocol=usbasp
+slowusbasp.program.tool=avrdude
+slowusbasp.program.extra_params=-Pusb -B100
+
+uslowusbasp.name=Bone Ultra Slow USBasp
+uslowusbasp.communication=usb
+uslowusbasp.protocol=usbasp
+uslowusbasp.program.protocol=usbasp
+uslowusbasp.program.tool=avrdude
+uslowusbasp.program.extra_params=-Pusb -B500
