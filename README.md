@@ -2,4 +2,8 @@ Atmega328p low power development boards programmable with Arduino bootloader or 
 
 Very slow clock, very low current!
 
+Arduino ide package:
+
+https://github.com/bigjohnson/bigjohnson.github.io/blob/master/Ossi/package_Bone_Tech_Inc._Ossi_index.json
+
 ![Osso](https://raw.githubusercontent.com/bigjohnson/bigjohnson.github.io/master/Ossi/doc/osso.jpg)
