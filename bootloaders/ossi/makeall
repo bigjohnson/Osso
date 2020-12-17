@@ -1,0 +1,17 @@
+#!/bin/bash
+make clean
+#
+# The "big three" standard bootloaders.
+make atmega328p_100_16000L
+make atmega328p_300_128000L
+make atmega328p_1200_128000L
+make atmega328p_9600_1000000L
+make atmega328p_9600_2000000L
+make atmega328p_250000_2000000L
+make atmega328p_9600_8000000L
+make atmega328p_38400_8000000L
+make atmega328p_57600_8000000L
+make atmega328p_115200_8000000L
+make atmega328p_115200_16000000L
+make atmega328p_115200_20000000L
+make atmega328p_115200_27000000L
