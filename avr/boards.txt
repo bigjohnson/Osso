@@ -135,10 +135,10 @@ ossoexternal.menu.cpu_speed.16MHzExternalClock.upload.speed=115200
 ## --------------------------------------------------
 ossoexternal.menu.cpu_speed.16MHzExternalClock_8=2Mhz = 16MHz / 8
 ossoexternal.menu.cpu_speed.16MHzExternalClock_8.build.f_cpu=2000000L
-ossoexternal.menu.cpu_speed.16MHzExternalClock_8.bootloader.file=osso/optiboot_atmega328p_9600_2000000L.hex
+ossoexternal.menu.cpu_speed.16MHzExternalClock_8.bootloader.file=osso/optiboot_atmega328_2MHz_19200.hex
 ossoexternal.menu.cpu_speed.16MHzExternalClock_8.bootloader.low_fuses=0x7F
 ossointernal.menu.cpu_speed.16MHzExternalClock_8.bootloader.extended_fuses=0x06
-ossoexternal.menu.cpu_speed.16MHzExternalClock_8.upload.speed=9600
+ossoexternal.menu.cpu_speed.16MHzExternalClock_8.upload.speed=19200
 
 ## Osso 20MHz external
 ## --------------------------------------------------
