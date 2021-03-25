@@ -12,7 +12,7 @@ use them with slow clock, the USBasp normal config is too fast and don't work.
 
 WARNING: Some internal slow clock mode can brick your atmega328p, to unbrick it you must use an external programmer, USBasp won't work. I use the [XGecu TL866II](http://www.xgecu.com/EN/TL866_main.html)
 
-For clock over 4Mhz the brwownout voltage is 2,7 volt.
+For clock over 4Mhz the brownout voltage is 2,7 volt.
 
 Clock from 4Mhz and under have 1,8 volt brownout.
 
