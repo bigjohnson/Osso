@@ -115,7 +115,7 @@ ossoexternal.menu.cpu_speed.2MHzExternalClock.build.f_cpu=2000000L
 ossoexternal.menu.cpu_speed.2MHzExternalClock.bootloader.file=osso/optiboot_atmega328p_115200_2000000L.hex
 ossoexternal.menu.cpu_speed.2MHzExternalClock.bootloader.low_fuses=0x7B
 ossoexternal.menu.cpu_speed.2MHzExternalClock.bootloader.extended_fuses=0x06
-ossoexternal.menu.cpu_speed.2MHzExternalClock.upload.speed=14400
+ossoexternal.menu.cpu_speed.2MHzExternalClock.upload.speed=115200
 
 ## Osso 8MHz external
 ## --------------------------------------------------
