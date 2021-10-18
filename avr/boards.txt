@@ -31,7 +31,7 @@ ossointernal.build.variant=ossointernal
 
 ## Osso 128KHz internal oscillator
 ## --------------------------------------------------
-ossointernal.menu.cpu_speed.128KHzInternalClock=128KHz
+ossointernal.menu.cpu_speed.128KHzInternalClock=128KHz osc
 ossointernal.menu.cpu_speed.128KHzInternalClock.build.f_cpu=128000L
 #ossointernal.menu.cpu_speed.128KHzInternalClock.bootloader.file=osso/optiboot_atmega328p_1200_128000L.hex
 ossointernal.menu.cpu_speed.128KHzInternalClock.bootloader.file=osso/optiboot_atmega328_01M_004800_D13.hex
@@ -40,20 +40,20 @@ ossointernal.menu.cpu_speed.128KHzInternalClock.bootloader.extended_fuses=0x06
 #ossointernal.menu.cpu_speed.128KHzInternalClock.upload.speed=1200
 ossointernal.menu.cpu_speed.128KHzInternalClock.upload.speed=4800
 
-## Osso 1MHz internal oscillator
+## Osso 1MHz = 8MHz osc / 8 by fuses internal oscillator
 ## --------------------------------------------------
-ossointernal.menu.cpu_speed.1MHzInternalClock=1MHz
-ossointernal.menu.cpu_speed.1MHzInternalClock.build.f_cpu=1000000L
-#ossointernal.menu.cpu_speed.1MHzInternalClock.bootloader.file=osso/optiboot_atmega328p_9600_1000000L.hex
-ossointernal.menu.cpu_speed.1MHzInternalClock.bootloader.file=osso/optiboot_atmega328_1000000_125000.hex
-ossointernal.menu.cpu_speed.1MHzInternalClock.bootloader.low_fuses=0x62
-ossointernal.menu.cpu_speed.1MHzInternalClock.bootloader.extended_fuses=0x06
-#ossointernal.menu.cpu_speed.1MHzInternalClock.upload.speed=9600
-ossointernal.menu.cpu_speed.1MHzInternalClock.upload.speed=125000
+ossointernal.menu.cpu_speed.8/8MHzInternalClock=1MHz = 8MHz osc / 8 by fuses
+ossointernal.menu.cpu_speed.8/8MHzInternalClock.build.f_cpu=1000000L
+#ossointernal.menu.cpu_speed.8/8MHzInternalClock.bootloader.file=osso/optiboot_atmega328p_9600_1000000L.hex
+ossointernal.menu.cpu_speed.8/8MHzInternalClock.bootloader.file=osso/optiboot_atmega328_1000000_125000.hex
+ossointernal.menu.cpu_speed.8/8MHzInternalClock.bootloader.low_fuses=0x62
+ossointernal.menu.cpu_speed.8/8MHzInternalClock.bootloader.extended_fuses=0x06
+#ossointernal.menu.cpu_speed.8/8MHzInternalClock.upload.speed=9600
+ossointernal.menu.cpu_speed.8/8MHzInternalClock.upload.speed=125000
 
-## Osso 8MHz internal oscillator
+## Osso 8MHz internal oscillator osc
 ## --------------------------------------------------
-ossointernal.menu.cpu_speed.8MHzInternalClock=8MHz
+ossointernal.menu.cpu_speed.8MHzInternalClock=8MHz osc
 ossointernal.menu.cpu_speed.8MHzInternalClock.build.f_cpu=8000000L
 ossointernal.menu.cpu_speed.8MHzInternalClock.bootloader.file=osso/optiboot_atmega328p_38400_8000000L.hex
 ossointernal.menu.cpu_speed.8MHzInternalClock.bootloader.low_fuses=0xE2
@@ -92,7 +92,7 @@ ossoexternal.build.variant=ossoexternal
 
 ## Osso 128KHz external
 ## --------------------------------------------------
-ossoexternal.menu.cpu_speed.128KHzExternalClock=128KHz
+ossoexternal.menu.cpu_speed.128KHzExternalClock=128KHz xtal
 ossoexternal.menu.cpu_speed.128KHzExternalClock.build.f_cpu=128000L
 ossoexternal.menu.cpu_speed.128KHzExternalClock.bootloader.file=osso/optiboot_atmega328p_1200_128000L.hex
 ossoexternal.menu.cpu_speed.128KHzExternalClock.bootloader.low_fuses=0xE0
@@ -101,7 +101,7 @@ ossoexternal.menu.cpu_speed.128KHzExternalClock.upload.speed=1200
 
 ## Osso 1MHz external
 ## --------------------------------------------------
-ossoexternal.menu.cpu_speed.1MHzExternalClock=1MHz
+ossoexternal.menu.cpu_speed.1MHzExternalClock=1MHz xtal
 ossoexternal.menu.cpu_speed.1MHzExternalClock.build.f_cpu=1000000L
 ossoexternal.menu.cpu_speed.1MHzExternalClock.bootloader.file=osso/optiboot_atmega328p_9600_1000000L.hex
 ossoexternal.menu.cpu_speed.1MHzExternalClock.bootloader.low_fuses=0xFB
