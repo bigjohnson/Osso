@@ -16,8 +16,4 @@ For clock over 4MHz the brownout voltage is 2,7 volt.
 
 Clock from 4MHz and under have 1,8 volt brownout.
 
-Arduino ide package:
-
-https://raw.githubusercontent.com/bigjohnson/bigjohnson.github.io/master/Ossi/package_Bone_Tech_Inc._Ossi_index.json
-
 ![Osso](https://raw.githubusercontent.com/bigjohnson/bigjohnson.github.io/master/Ossi/doc/osso.jpg)
