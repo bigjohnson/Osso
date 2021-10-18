@@ -200,33 +200,33 @@ ossointernalnb.build.core=arduino:arduino
 ossointernalnb.build.variant=ossointernal
 ossointernalnb.bootloader.file=empty/empty.hex
 
-## Osso 16KHz internal oscillator
+## Osso 16KHz = 128KHz osc / 8 by fuses internal oscillator
 ## --------------------------------------------------
-ossointernalnb.menu.cpu_speed.16KHzInternalClock=16KHz
-ossointernalnb.menu.cpu_speed.16KHzInternalClock.build.f_cpu=16000L
-ossointernalnb.menu.cpu_speed.16KHzInternalClock.bootloader.low_fuses=0x63
-ossointernalnb.menu.cpu_speed.16MHzExternalClock.bootloader.extended_fuses=0x06
-ossointernalnb.menu.cpu_speed.16KHzInternalClock.upload.speed=100
+ossointernalnb.menu.cpu_speed.128/8KHzInternalClock=16KHz = 128KHz osc / 8 by fuses
+ossointernalnb.menu.cpu_speed.128/8KHzInternalClock.build.f_cpu=16000L
+ossointernalnb.menu.cpu_speed.128/8KHzInternalClock.bootloader.low_fuses=0x63
+ossointernalnb.menu.cpu_speed.128/8MHzExternalClock.bootloader.extended_fuses=0x06
+ossointernalnb.menu.cpu_speed.128/8KHzInternalClock.upload.speed=100
 
 ## Osso 128KHz internal oscillator
 ## --------------------------------------------------
-ossointernalnb.menu.cpu_speed.128KHzInternalClock=128KHz
+ossointernalnb.menu.cpu_speed.128KHzInternalClock=128KHz osc
 ossointernalnb.menu.cpu_speed.128KHzInternalClock.build.f_cpu=128000L
 ossointernalnb.menu.cpu_speed.128KHzInternalClock.bootloader.low_fuses=0xE3
 ossointernalnb.menu.cpu_speed.128MHzExternalClock.bootloader.extended_fuses=0x06
 ossointernalnb.menu.cpu_speed.128KHzInternalClock.upload.speed=1200
 
-## Osso 1MHz internal oscillator
+## Osso 1MHz = 8MHz osc / 8 by fuses internal oscillator
 ## --------------------------------------------------
-ossointernalnb.menu.cpu_speed.1MHzInternalClock=1MHz
-ossointernalnb.menu.cpu_speed.1MHzInternalClock.build.f_cpu=1000000L
-ossointernalnb.menu.cpu_speed.1MHzInternalClock.bootloader.low_fuses=0x62
-ossointernalnb.menu.cpu_speed.1MHzInternalClock.bootloader.extended_fuses=0x06
-ossointernalnb.menu.cpu_speed.1MHzInternalClock.upload.speed=9600
+ossointernalnb.menu.cpu_speed.8/8MHzInternalClock=1MHz = 8MHz osc / 8 by fuses
+ossointernalnb.menu.cpu_speed.8/8MHzInternalClock.build.f_cpu=1000000L
+ossointernalnb.menu.cpu_speed.8/8MHzInternalClock.bootloader.low_fuses=0x62
+ossointernalnb.menu.cpu_speed.8/8MHzInternalClock.bootloader.extended_fuses=0x06
+ossointernalnb.menu.cpu_speed.8/8MHzInternalClock.upload.speed=9600
 
 ## Osso 8MHz internal oscillator
 ## --------------------------------------------------
-ossointernalnb.menu.cpu_speed.8MHzInternalClock=8MHz
+ossointernalnb.menu.cpu_speed.8MHzInternalClock=8MHz osc
 ossointernalnb.menu.cpu_speed.8MHzInternalClock.build.f_cpu=8000000L
 ossointernalnb.menu.cpu_speed.8MHzInternalClock.bootloader.low_fuses=0xE2
 ossointernalnb.menu.cpu_speed.8MHzInternalClock.bootloader.extended_fuses=0x05
@@ -271,7 +271,7 @@ ossoexternalnb.menu.cpu_speed.16KHzExternalClock.upload.speed=100
 
 ## Osso 128KHz external
 ## --------------------------------------------------
-ossoexternalnb.menu.cpu_speed.128KHzExternalClock=128KHz
+ossoexternalnb.menu.cpu_speed.128KHzExternalClock=128KHz xtal
 ossoexternalnb.menu.cpu_speed.128KHzExternalClock.build.f_cpu=128000L
 ossoexternalnb.menu.cpu_speed.128KHzExternalClock.bootloader.low_fuses=0xE0
 ossoexternalnb.menu.cpu_speed.128KHzExternalClock.bootloader.extended_fuses=0x06
@@ -279,7 +279,7 @@ ossoexternalnb.menu.cpu_speed.128HzExternalClock.upload.speed=1200
 
 ## Osso 1MHz external
 ## --------------------------------------------------
-ossoexternalnb.menu.cpu_speed.1MHzExternalClock=1MHz
+ossoexternalnb.menu.cpu_speed.1MHzExternalClock=1MHz xtal
 ossoexternalnb.menu.cpu_speed.1MHzExternalClock.build.f_cpu=1000000L
 ossoexternalnb.menu.cpu_speed.1MHzExternalClock.bootloader.low_fuses=0xFB
 ossoexternalnb.menu.cpu_speed.1MHzExternalClock.bootloader.extended_fuses=0x06
