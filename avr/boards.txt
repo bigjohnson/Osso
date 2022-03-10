@@ -141,7 +141,7 @@ ossoexternal.menu.cpu_speed.8MHzExternalClock=8MHz xtal
 ossoexternal.menu.cpu_speed.8MHzExternalClock.build.f_cpu=8000000L
 ossoexternal.menu.cpu_speed.8MHzExternalClock.bootloader.file=osso/optiboot_atmega328p_38400_8000000L.hex
 ossoexternal.menu.cpu_speed.8MHzExternalClock.bootloader.low_fuses=0xFF
-ossoexternal.menu.cpu_speed.8MHzExternalClock.bootloader.extended_fuses=0x05
+ossoexternal.menu.cpu_speed.8MHzExternalClock.bootloader.extended_fuses=0x06
 ossoexternal.menu.cpu_speed.8MHzExternalClock.upload.speed=38400
 
 ## Osso 16MHz xtal external
