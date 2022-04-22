@@ -80,7 +80,7 @@ ossoexternal.upload.maximum_size=32256
 ossoexternal.upload.maximum_data_size=2048
 
 ossoexternal.bootloader.tool=arduino:avrdude
-ossoexternal.bootloader.high_fuses=0xD4
+ossoexternal.bootloader.high_fuses=0xD6
 #ossoexternal.bootloader.extended_fuses=0xFD
 ossoexternal.bootloader.unlock_bits=0x3F
 ossoexternal.bootloader.lock_bits=0x0F
