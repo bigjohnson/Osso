@@ -19,7 +19,7 @@ ossointernal.upload.maximum_size=32256
 ossointernal.upload.maximum_data_size=2048
 
 ossointernal.bootloader.tool=arduino:avrdude
-ossointernal.bootloader.high_fuses=0xD4
+ossointernal.bootloader.high_fuses=0xD6
 #ossointernal.bootloader.extended_fuses=0xFD
 ossointernal.bootloader.unlock_bits=0x3F
 ossointernal.bootloader.lock_bits=0x0F
@@ -189,7 +189,7 @@ ossointernalnb.upload.maximum_size=32256
 ossointernalnb.upload.maximum_data_size=2048
 
 ossointernalnb.bootloader.tool=arduino:avrdude
-ossointernalnb.bootloader.high_fuses=0xD4
+ossointernalnb.bootloader.high_fuses=0xD6
 #ossointernalnb.bootloader.extended_fuses=0x05
 ossointernalnb.bootloader.unlock_bits=0xFF
 ossointernalnb.bootloader.lock_bits=0xFF
@@ -250,7 +250,7 @@ ossoexternalnb.upload.maximum_size=32256
 ossoexternalnb.upload.maximum_data_size=2048
 
 ossoexternalnb.bootloader.tool=arduino:avrdude
-ossoexternalnb.bootloader.high_fuses=0xD4
+ossoexternalnb.bootloader.high_fuses=0xD6
 #ossoexternalnb.bootloader.extended_fuses=0x05
 ossoexternalnb.bootloader.unlock_bits=0x3F
 ossoexternalnb.bootloader.lock_bits=0x0F
