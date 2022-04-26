@@ -117,6 +117,15 @@ ossoexternal.menu.cpu_speed.8/8MHzExternalClock_8.bootloader.low_fuses=0x7F
 ossoexternal.menu.cpu_speed.8/8MHzExternalClock_8.bootloader.extended_fuses=0xFE
 ossoexternal.menu.cpu_speed.8/8MHzExternalClock_8.upload.speed=9600
 
+## Osso 1MHz = 8MHz xtal / 8 external / 125000 bps
+## --------------------------------------------------
+ossoexternal.menu.cpu_speed.8/8MHzExternalClock_8_125000=1Mhz = 8MHz xtal / 8 by fuses / 125000 bootloader
+ossoexternal.menu.cpu_speed.8/8MHzExternalClock_8_125000.build.f_cpu=1000000L
+ossoexternal.menu.cpu_speed.8/8MHzExternalClock_8_125000.bootloader.file=osso/optiboot_atmega328_1000000_125000.hex
+ossoexternal.menu.cpu_speed.8/8MHzExternalClock_8_125000.bootloader.low_fuses=0x7F
+ossoexternal.menu.cpu_speed.8/8MHzExternalClock_8_125000.bootloader.extended_fuses=0xFE
+ossoexternal.menu.cpu_speed.8/8MHzExternalClock_8_125000.upload.speed=125000
+
 ## Osso 2MHz external
 ## --------------------------------------------------
 ossoexternal.menu.cpu_speed.2MHzExternalClock=2MHz xtal
